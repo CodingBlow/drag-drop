@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop Interface</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="left">
+        <h2>Draggables</h2>
+        <ul id="draggable-list" class="list-group">
+          <li class="list" draggable="true">Item 1</li>
+          <li class="list" draggable="true">Item 2</li>
+          <li class="list" draggable="true">Item 3</li>
+          <li class="list" draggable="true">Item 4</li>
+          <li class="list" draggable="true">Item 5</li>
+        </ul>
+      </div>
+      <div id="right">
+        <h2>Dropped Items</h2>
+        <ul id="drop-target" class="list-group"></ul>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
